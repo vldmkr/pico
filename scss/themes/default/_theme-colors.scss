@@ -3,6 +3,30 @@
 @use "../../settings" as *;
 
 $color-mappings: (
+  "uniot": (
+    "dark": (
+      "text-selection-color": rgba($uniot-350, 0.1875),
+      "primary": $uniot-350,
+      "primary-background": $uniot-550,
+      "primary-underline": rgba($uniot-350, 0.5),
+      "primary-hover": $uniot-250,
+      "primary-hover-background": $uniot-500,
+      "primary-focus": rgba($uniot-350, 0.375),
+      "primary-inverse": $white,
+      "switch-thumb-box-shadow": 0 0 0 rgba(0, 0, 0, 0),
+    ),
+    "light": (
+      "text-selection-color": rgba($uniot-400, 0.25),
+      "primary": $uniot-550,
+      "primary-background": $uniot-550,
+      "primary-underline": rgba($uniot-550, 0.5),
+      "primary-hover": $uniot-650,
+      "primary-hover-background": $uniot-600,
+      "primary-focus": rgba($uniot-400, 0.5),
+      "primary-inverse": $white,
+      "switch-thumb-box-shadow": 0 0 0 rgba(0, 0, 0, 0),
+    ),
+  ),
   "amber": (
     "dark": (
       "text-selection-color": rgba($amber-350, 0.1875),

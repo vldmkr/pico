@@ -1,6 +1,72 @@
 // B&W
-$black: #000;
-$white: #fff;
+$black: #23252e;
+$white: #f7f9fc;
+
+// Uniot
+$uniot-950: #171b4f;
+$uniot-900: #273088;
+$uniot-850: #274595;
+$uniot-800: #2731ac;
+$uniot-750: #252eba;
+$uniot-700: #2c36d6;
+$uniot-650: #303dd2;
+$uniot-600: #3948f2;
+$uniot-550: #4c68fc;
+$uniot-500: #5b7afe;
+$uniot-450: #6b8aff;
+$uniot-400: #7897ff;
+$uniot-350: #85a2ff;
+$uniot-300: #9ebdff;
+$uniot-250: #a7c4ff;
+$uniot-200: #c3d7ff;
+$uniot-150: #c9dbff;
+$uniot-100: #deebff;
+$uniot-50: #edf3ff;
+$uniot: $uniot-550;
+
+// Uniot - Zinc
+$zinc-950: #23252e;
+$zinc-900: #303340;
+$zinc-850: #424551;
+$zinc-800: #3b3f51;
+$zinc-750: #3a3f52;
+$zinc-700: #444a60;
+$zinc-650: #555a6f;
+$zinc-600: #535a76;
+$zinc-550: #626983;
+$zinc-500: #68728f;
+$zinc-450: #767f9a;
+$zinc-400: #8790a9;
+$zinc-350: #929bb1;
+$zinc-300: #b1b7c8;
+$zinc-250: #b9becd;
+$zinc-200: #d6d8e1;
+$zinc-150: #dadce4;
+$zinc-100: #ecedf2;
+$zinc-50: #f6f7f9;
+$zinc: $zinc-550;
+
+// Uniot - Slate
+$slate-950: #252333;
+$slate-900: #2c2a3c;
+$slate-850: #4b4867;
+$slate-800: #5b5975;
+$slate-750: #5a547f;
+$slate-700: #69648b;
+$slate-650: #6d669c;
+$slate-600: #7a74a6;
+$slate-550: #7e78b3;
+$slate-500: #8a85bb;
+$slate-450: #918fc5;
+$slate-400: #9b9acb;
+$slate-350: #a6a7d3;
+$slate-300: #aeb0d8;
+$slate-250: #c0c4e1;
+$slate-200: #c6cae4;
+$slate-150: #d8dbed;
+$slate-100: #dcdfef;
+$slate-50: #e9ebf5;
+$slate: $slate-500;
 
 // Red
 $red-950: #1c0d06;
@@ -399,50 +465,72 @@ $grey-50: #f1f1f1;
 $grey: $grey-300;
 
 // Zinc
-$zinc-950: #0f1114;
-$zinc-900: #191c20;
-$zinc-850: #23262c;
-$zinc-800: #2d3138;
-$zinc-750: #373c44;
-$zinc-700: #424751;
-$zinc-650: #4d535e;
-$zinc-600: #5c6370;
-$zinc-550: #646b79;
-$zinc-500: #6f7887;
-$zinc-450: #7b8495;
-$zinc-400: #8891a4;
-$zinc-350: #969eaf;
-$zinc-300: #a4acba;
-$zinc-250: #b3b9c5;
-$zinc-200: #c2c7d0;
-$zinc-150: #d1d5db;
-$zinc-100: #e0e3e7;
-$zinc-50: #f0f1f3;
-$zinc: $zinc-550;
+// $zinc-950: #0f1114;
+// $zinc-900: #191c20;
+// $zinc-850: #23262c;
+// $zinc-800: #2d3138;
+// $zinc-750: #373c44;
+// $zinc-700: #424751;
+// $zinc-650: #4d535e;
+// $zinc-600: #5c6370;
+// $zinc-550: #646b79;
+// $zinc-500: #6f7887;
+// $zinc-450: #7b8495;
+// $zinc-400: #8891a4;
+// $zinc-350: #969eaf;
+// $zinc-300: #a4acba;
+// $zinc-250: #b3b9c5;
+// $zinc-200: #c2c7d0;
+// $zinc-150: #d1d5db;
+// $zinc-100: #e0e3e7;
+// $zinc-50: #f0f1f3;
+// $zinc: $zinc-550;
 
 // Slate
-$slate-950: #0e1118;
-$slate-900: #181c25;
-$slate-850: #202632;
-$slate-800: #2a3140;
-$slate-750: #333c4e;
-$slate-700: #3d475c;
-$slate-650: #48536b;
-$slate-600: #525f7a;
-$slate-550: #5d6b89;
-$slate-500: #687899;
-$slate-450: #7385a9;
-$slate-400: #8191b5;
-$slate-350: #909ebe;
-$slate-300: #a0acc7;
-$slate-250: #b0b9d0;
-$slate-200: #bfc7d9;
-$slate-150: #cfd5e2;
-$slate-100: #dfe3eb;
-$slate-50: #eff1f4;
-$slate: $slate-600;
+// $slate-950: #0e1118;
+// $slate-900: #181c25;
+// $slate-850: #202632;
+// $slate-800: #2a3140;
+// $slate-750: #333c4e;
+// $slate-700: #3d475c;
+// $slate-650: #48536b;
+// $slate-600: #525f7a;
+// $slate-550: #5d6b89;
+// $slate-500: #687899;
+// $slate-450: #7385a9;
+// $slate-400: #8191b5;
+// $slate-350: #909ebe;
+// $slate-300: #a0acc7;
+// $slate-250: #b0b9d0;
+// $slate-200: #bfc7d9;
+// $slate-150: #cfd5e2;
+// $slate-100: #dfe3eb;
+// $slate-50: #eff1f4;
+// $slate: $slate-600;
 
 $colors: (
+  uniot: (
+    950: $uniot-950,
+    900: $uniot-900,
+    850: $uniot-850,
+    800: $uniot-800,
+    750: $uniot-750,
+    700: $uniot-700,
+    650: $uniot-650,
+    600: $uniot-600,
+    550: $uniot-550,
+    500: $uniot-500,
+    450: $uniot-450,
+    400: $uniot-400,
+    350: $uniot-350,
+    300: $uniot-300,
+    250: $uniot-250,
+    200: $uniot-200,
+    150: $uniot-150,
+    100: $uniot-100,
+    50: $uniot-50,
+    main: $uniot,
+  ),
   red: (
     950: $red-950,
     900: $red-900,

@@ -3,6 +3,7 @@ const path = require("path");
 const fs = require("fs");
 
 const themeColors = [
+  "uniot",
   "amber",
   "blue",
   "cyan",
